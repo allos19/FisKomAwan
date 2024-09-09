@@ -9,7 +9,7 @@ st.title('FISIKA KOMPUTASI AWAN')
 st.header('Allos Mamaroh/210322607269')
 st.subheader('Plot')
  
-x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
+x = np.linspace(-2 * np.pi, 3 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
 y = np.sin(x)  # Calculating sin(x) values
 z = np.cos(x)  # Calculating sin(x) values
  
