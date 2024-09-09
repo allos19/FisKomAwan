@@ -6,7 +6,7 @@ import streamlit as st
 st.title('FISIKA KOMPUTASI AWAN')
 
 # Header
-st.header('Allos Mamaroh')
+st.header('Allos Mamaroh/210322607269')
 st.subheader('Plot')
  
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
