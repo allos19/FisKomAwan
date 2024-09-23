@@ -40,7 +40,7 @@ if (sx == 'K'):
 if (sx == 'K'):
   if (sy == 'C'):
     y = (x-32)*((5/9)
-		elif (sy == 'K'):
+  elif (sy == 'K'):
     y = (x-32)*(5/9)+273.15
   elif (sy == 'F'):
     y = x
