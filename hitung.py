@@ -15,6 +15,8 @@ if (sx == 'C'):
     y = x
   elif (sy == 'K'):
     y = x+273.15
+  elif (sy == 'F'):
+    y = (x+32)*(5/9)
   else :
     pass 
   
