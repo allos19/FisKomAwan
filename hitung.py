@@ -55,7 +55,7 @@ if (sx == 'R'):
   elif (sy == 'K'):
     y = x*(5/4)+273.15
   elif (sy == 'F'):
-    y = x*(9/4)+32)
+    y = x*(9/4)+32
   elif (sy == 'R'):
     y = x
   else :
