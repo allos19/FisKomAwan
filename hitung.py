@@ -37,7 +37,7 @@ if (sx == 'K'):
   else :
     pass
 
-if (sx == 'F'):
+if (sx == 'K'):
   if (sy == 'C'):
     y = (x-32)*((5/9)
   elif (sy == 'K'):
