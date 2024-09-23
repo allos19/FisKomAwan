@@ -5,12 +5,12 @@ sx = st.text_input("satuan", "C")
 st.write("The current number is ", x,' ',sx)
 
 
-st.latex(r''
+st.latex(r'''
   K = C + 273.15
-  '') 
-st.latex(r''
+  ''') 
+st.latex(r'''
   F = \left(\frac{9}{5} \times C \right)
-  '')  
+  ''')  
  
 
 sy = st.text_input("Converted to", "C")
