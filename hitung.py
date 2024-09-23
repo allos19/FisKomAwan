@@ -15,7 +15,7 @@ if (sx == 'C'):
     y = x
   elif (sy == 'K'):
     y = x+273.15
-  else 
+  else :
     pass 
   
 st.write(x, ' ', sx, '=', y, sy)
