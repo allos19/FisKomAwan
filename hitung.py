@@ -8,10 +8,10 @@ col1, col2 = st.columns(2)
 
 with col1:
   st.latex(r'''K = C + 273.15''') 
-  st.latex(r'''F = \left(\frac{9}{5} \times C \right)''')  
+  st.latex(r'''F = \left \frac{9}{5} \times C \right''')  
 
 with col2:
-  st.latex(r'''R = \left(\frac{4}{5} \times C \right)''') 
+  st.latex(r'''R = \left \frac{4}{5} \times C \right''') 
                                                                                                    
  
 
