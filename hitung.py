@@ -13,7 +13,7 @@ y = 0
 if (sx == 'C'):
   if (sy == 'C'):
     y = x
-  elif (sy == 'K')
+  elif (sy == 'K'):
     y = x+273.15
   else 
     pass 
