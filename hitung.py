@@ -26,39 +26,39 @@ if (sx == 'C'):
     pass 
 
 if (sx == 'K'):
-	if (sy == 'C'):
-		y = (x-273.15)
-	elif (sy == 'R'):
-		y = ((x-273.15)*4/5)
-	elif (sy=='F'):
-		y = (((x-273.15)*9/5)+32)
-	elif (sy=='K'):
-		y = x
-	else:
+  if (sy == 'C'):
+    y = x-273.15
+  elif (sy == 'K'):
+    y = x
+  elif (sy == 'F'):
+    y = (x-273.15)*(9/5)+32
+  elif (sy == 'R'):
+    y = (x-273.15)*(4/5)
+  else :
     pass
 
 if (sx == 'F'):
-	if (sy == 'C'):
-		y = ((x-32)*5/9)
-	elif (sy == 'R'):
-		y = ((x-32)*4/9)
-	elif (sy == 'F'):
-		y = x
-	elif (sy == 'K'):
-		y = (((x-32)*5/9)+273.15)
-	else:
+  if (sy == 'C'):
+    y = (x-32)*((5/9)
+  elif (sy == 'K'):
+    y = (x-32)*(5/9)+273.15
+  elif (sy == 'F'):
+    y = x
+  elif (sy == 'R'):
+    y = (x-32)*(4/9)
+  else :
     pass
 
 if (sx == 'R'):
-	if (sy == 'C'):
-		y = (x*5/4)
-	elif (sy == 'R'):
-		y = x
-	elif (sy == 'F'):
-		y = ((x*9/4)+32)
-	elif (sy == 'K'):
-		y = ((x*5/4)+273.15)
-	else:
+  if (sy == 'C'):
+    y = x*(5/4)
+  elif (sy == 'K'):
+    y = x*(5/4)+273.15
+  elif (sy == 'F'):
+    y = x*(9/4)+32)
+  elif (sy == 'R'):
+    y = x
+  else :
     pass
-  
+	 
 st.write(x, ' ', sx, '=', y, sy)
