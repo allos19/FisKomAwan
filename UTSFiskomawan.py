@@ -7,7 +7,7 @@ from matplotlib.patches import Circle
 
 #
 st.title("UTS Fisika Komputasi Awan")
-st.title(":sparkle: Allos Mamaroh/210322607269")
+st.title(":sparkles: Allos Mamaroh/210322607269")
 
 #buat lingkaran
 circle = Circle((0, 0), 1, color='black', fill=False, linewidth=2, linestyle='-', alpha=0.2)
