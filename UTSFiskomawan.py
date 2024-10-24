@@ -1,13 +1,16 @@
+#libraries
 import streamlit as st
 import random
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 
-
+#
 st.title("UTS Fisika Komputasi Awan")
-st.title("Allos Mamaroh/210322607269")
-circle = Circle((0, 0), 1, color='red', fill=False, linewidth=2, linestyle='-', alpha=0.2)
+st.title(":sparkle: Allos Mamaroh/210322607269")
+
+#buat lingkaran
+circle = Circle((0, 0), 1, color='black', fill=False, linewidth=2, linestyle='-', alpha=0.2)
 x = []
 y = []
 color = []
@@ -16,6 +19,8 @@ x.append(0)
 y.append(0)
 color.append((0.,.7,0.))
 size.append(371)
+
+#buat tombol untuk mengubah data
 if st.button("Data"):
     for i in range(111):
         x0 = 2*(random.random() - .5)
@@ -34,6 +39,7 @@ if st.button("Data"):
 fig, ax = plt.subplots(figsize=(16, 16))
 ax.add_patch(circle)
 
+#Plot data di dalam lingkaran
 for i in range(1, len(x)):
     ax.plot([0, x[i]], [0, y[i]], color='green', linestyle='--', alpha=0.2)
 
