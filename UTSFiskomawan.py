@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 
 
-st.title("Fisika Komputasi Awan")
-st.title("Nugroho Adi Pramono :sunglasses:")
+st.title("UTS Fisika Komputasi Awan")
+st.title("Allos Mamaroh/210322607269")
 circle = Circle((0, 0), 1, color='red', fill=False, linewidth=2, linestyle='-', alpha=0.2)
 x = []
 y = []
@@ -52,7 +52,7 @@ ax.set_ylim([-1, 1])
 st.pyplot(fig)
 st.caption("Lingkaran dengan ukuran dan warna acak dan tersebar didalam lingkaran dengan radius 1")
 st.divider()
-st.text("Buat website seperti di atas dengan menggunakan GitHub dan Streamlit.")
-st.text("Kirim video saat website dijalankan.") 
-st.text("Pastikan nama dan alamat website terlihat.")
-st.divider()
+#st.text("Buat website seperti di atas dengan menggunakan GitHub dan Streamlit.")
+#st.text("Kirim video saat website dijalankan.") 
+#st.text("Pastikan nama dan alamat website terlihat.")
+#st.divider()
